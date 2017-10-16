@@ -19,7 +19,7 @@ object_point[:, :2] = np.mgrid[0:9, 0:6].T.reshape(-1, 2)
 # 3d point in real world space
 object_points = []
 # 2d points in image plane
-image_points = []
+image_points = [] 
 h, w = 0, 0
 
 images = glob.glob('chess_board/*.jpg')
